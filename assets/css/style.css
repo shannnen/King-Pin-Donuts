@@ -1,0 +1,308 @@
+body {
+    background-color: #FFCCC5;
+}
+
+.navbar, h1, .thingdesc {
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 133%;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #8D003B;
+}
+
+h1 {
+    text-decoration: underline;
+    justify-content: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    white-space: nowrap;
+}
+
+li {
+    font-family: Bitter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #43415A;
+    
+
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#price, #holeprice {
+    font-family: Bitter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #43415A;
+    text-decoration: none;
+
+    margin-left: 2%;
+    margin-right: 10px;
+    margin-top: 3.5%;
+    list-style: none;
+}
+
+.thingdesc {
+    font-size: 21px;
+    margin-top: -10px;
+    letter-spacing: 0.05em;
+    font-family: Bitter;
+    font-weight: bold;
+}
+
+.navwords {
+    margin: 25px;
+    font-size: 30px;
+}
+
+.navwords:hover {
+    cursor: pointer;
+}
+
+a {
+    color:#8D003B;
+    text-decoration: none;
+}
+
+
+
+.title-box {
+    width: 636px;
+    height: 322px;
+
+
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+#king-title {
+    font-family: Bungee Shade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 136.5%;
+    letter-spacing: 0.07em;
+    color: #8D003B;
+
+}
+
+#desc {
+    font-family: Concert One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 133%;
+    /* or 48px */
+
+    letter-spacing: 0.1em;
+
+    color: #43415A;
+}
+
+
+.circles {
+    border-radius: 50%;
+    border: 4px solid rgba(67, 65, 90, 0.44);
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+#e1{
+    position: absolute;
+    width: 437.76px;
+    height: 437.76px;
+    left: 90px;
+    top: -200px;
+
+}
+
+#e2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -3%;
+    top: 70%;
+}
+
+#e3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: -1%;
+    bottom: -1%;
+}
+
+.man {
+    position: relative;
+    top: -20%;
+    left: -10%;
+    margin-right: -50%;
+}
+
+#man {
+    width: 80%;
+    height: auto;
+    filter:brightness(1.1) saturate(1.1);
+    opacity: 1;
+}
+
+
+
+.dashboard {
+    margin: 25px;
+}
+
+.items {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.thing {
+    width: 190px;
+    /* height: 225px; */
+    background-color: #FFECD0;
+    border-radius: 10px;
+    margin-right: 4%;
+    
+}
+
+
+.thingimage {
+    width: 210px;
+    height: 200px;
+    clip-path: inset(0px 20px 10px 0px);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 90%;
+    opacity: .85;
+    transition: 0.2s;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.subheadings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    margin-left: 9%;
+    list-style-type: none;
+}
+
+.donutbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#straw {
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.reg {
+    white-space: nowrap;
+}
+
+li {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+}
+
+.toppings, .holetop {
+    background-color: #FFECD0;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-right: 5%;
+}
+
+.toppings li, .holetop li {
+    font-size: 19px;
+}
+
+
+#toptitle, #holetitle {
+    display: flex;
+    justify-content: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #8D003B;
+    padding-top: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 0.08em;
+}
+
+.hole {
+    margin-left: 10%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#holetitle, .hole li  {
+    margin-left: -11%;
+    text-decoration: none;
+}
+
+.holeimage {
+    margin-left: -50px;
+
+    width: 300px;
+    height: 200px;
+    clip-path: inset(0px 20px 10px 0px);
+    display: flex;
+    justify-content: center;
+}
+
+.holetop{
+    margin: 10%;
+    width: 82%;
+}
+
+#holeprice {    
+    
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+ul.costs li {
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+#sub {
+    color: #8D003B;
+}
+
+
+
